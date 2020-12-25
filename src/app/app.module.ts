@@ -6,18 +6,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {ItemsModule} from './items/items.module';
 
-@NgModule({
+ @NgModule({
   declarations: [
     AppComponent,
-
+    
     SignUpComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    ItemsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
