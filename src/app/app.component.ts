@@ -7,4 +7,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'LoginSignup';
+  success_msg=true;
+  contacts=[
+  {
+    'firstName':'Abc',
+    'lastName' :'def'
+
+  },
+ {
+    
+  'firstName':'Abc',
+  'lastName' :'def'
+
+ },
+{
+  
+  'firstName':'Abc',
+  'lastName' :'def'
+
+}]
 }
